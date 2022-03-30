@@ -85,6 +85,13 @@ npm init -y
     npm i pug
     ```
 
+5. [**WebSocket**](https://github.com/theturtle32/WebSocket-Node)
+    ```bash
+    # WebSocket
+    npm i ws
+    ```
+ 
+
 ## Develop
 
 - [`src/server.js`](src/server.js)
