@@ -90,6 +90,12 @@ npm init -y
     # WebSocket
     npm i ws
     ```
+
+5. [**socket.io**](https://socket.io/)
+    ```bash
+    # socket.io
+    npm i socket.io
+    ```
  
 
 ## Develop
