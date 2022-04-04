@@ -91,10 +91,16 @@ npm init -y
     npm i ws
     ```
 
-5. [**socket.io**](https://socket.io/)
+6. [**socket.io**](https://socket.io/)
     ```bash
     # socket.io
     npm i socket.io
+    ```
+
+7. [**socket.io admin**](https://socket.io/docs/v4/admin-ui/)
+    ```bash
+    # socket.io admin-ui
+    npm i @socket.io/admin-ui
     ```
  
 
