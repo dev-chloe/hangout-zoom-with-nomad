@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: unset;
+}
+
+input:focus {
+  outline: unset;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  background-color: #353535;
+  color: #FFFFFF;
+}
+
+header {
+  padding: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+main {
+  padding: 10px;
+}
+
+#welcome .wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#welcome form {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#welcome form input {
+  width: 100%;
+  background: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  font-size: 17px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+#welcome form input::placeholder {
+  color: #c4c4c4;
+}
+
+#welcome form button {
+  background: transparent;
+  border: 0;
+  color: #FFFFFF;
+}
+
+#welcome form button:hover {
+  color: #c4c4c4;
+}
+
+#call .wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+#myStream {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#myStream #cameras {
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+#myStream .btn_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+#myStream .btn_wrapper button {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 20px;
+  background: #2E5EAA;
+  color: #FFFFFF;
+}
+
+#call .wrapper #peers_face {
+  margin-top: 27px;
+}
